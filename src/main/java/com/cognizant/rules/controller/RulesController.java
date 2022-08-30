@@ -20,7 +20,7 @@ public class RulesController {
 	@Autowired
 	RulesService rulesService;
 
-	@CrossOrigin(origins ="http://localhost:3000")
+	@CrossOrigin(origins ="http://localhost:5000")
 	@GetMapping("/evaluate-min-balance/{balance}/{accountType}")
 	public ResponseEntity<?> evaluateMinBalance(@RequestHeader(name="Authorization") String token,@PathVariable double balance, @PathVariable String accountType) {
 		try {
@@ -34,7 +34,7 @@ public class RulesController {
 		}
 	}
 	
-	@CrossOrigin(origins ="http://localhost:3000")
+	@CrossOrigin(origins ="http://localhost:5000")
 	@GetMapping("/get-service-charges/{accountType}")
 	public ResponseEntity<?> getServiceCharges(@PathVariable String accountType){
 		return new ResponseEntity<>(rulesService.getServiceCharges(accountType),HttpStatus.OK);
