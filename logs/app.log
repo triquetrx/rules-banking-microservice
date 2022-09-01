@@ -47,3 +47,143 @@
 10:05:43.225 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
 10:05:43.238 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RULES-MICROSERVICE/LTIN287456.cts.com:rules-microservice:8005 - deregister  status: 200
 10:05:43.253 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+10:05:43.527 [restartedMain] INFO  c.c.r.RulesMicroserviceApplication - Starting RulesMicroserviceApplication using Java 17.0.1 on LTIN287456 with PID 48612 (C:\Users\2146122\mfpe\rules-microservice\target\classes started by 2146122 in C:\Users\2146122\mfpe\rules-microservice)
+10:05:43.528 [restartedMain] INFO  c.c.r.RulesMicroserviceApplication - No active profile set, falling back to 1 default profile: "default"
+10:05:44.127 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=28b31051-74fe-36f9-9200-8bfb9c190280
+10:05:44.236 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8005 (http)
+10:05:44.237 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8005"]
+10:05:44.238 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:05:44.238 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+10:05:44.337 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:05:44.338 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 803 ms
+10:05:44.435 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+10:05:44.881 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+10:05:45.118 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+10:05:45.134 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+10:05:45.139 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+10:05:45.140 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+10:05:45.157 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+10:05:45.157 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+10:05:45.157 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+10:05:45.157 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+10:05:45.157 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+10:05:45.157 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+10:05:45.157 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+10:05:45.193 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+10:05:45.195 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+10:05:45.197 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+10:05:45.199 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1661920545199 with initial instances count: 4
+10:05:45.200 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application RULES-MICROSERVICE with eureka with status UP
+10:05:45.200 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1661920545200, current=UP, previous=STARTING]
+10:05:45.201 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RULES-MICROSERVICE/LTIN287456.cts.com:rules-microservice:8005: registering service...
+10:05:45.202 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8005"]
+10:05:45.208 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8005 (http) with context path ''
+10:05:45.209 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8005
+10:05:45.223 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RULES-MICROSERVICE/LTIN287456.cts.com:rules-microservice:8005 - registration status: 204
+10:05:45.391 [restartedMain] INFO  c.c.r.RulesMicroserviceApplication - Started RulesMicroserviceApplication in 2.064 seconds (JVM running for 110.738)
+10:05:45.395 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+10:09:52.711 [http-nio-8005-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:09:52.712 [http-nio-8005-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:09:52.714 [http-nio-8005-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+10:09:52.862 [http-nio-8005-exec-2] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+10:09:52.862 [http-nio-8005-exec-4] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+10:09:52.862 [http-nio-8005-exec-1] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+10:09:52.864 [http-nio-8005-exec-4] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+10:09:52.864 [http-nio-8005-exec-2] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+10:09:52.864 [http-nio-8005-exec-1] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+10:09:52.916 [http-nio-8005-exec-8] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+10:09:52.916 [http-nio-8005-exec-7] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+10:09:52.916 [http-nio-8005-exec-8] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+10:09:52.916 [http-nio-8005-exec-7] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+10:09:52.916 [http-nio-8005-exec-10] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+10:09:52.916 [http-nio-8005-exec-10] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+10:10:45.163 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+10:14:07.158 [http-nio-8005-exec-9] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+10:14:07.159 [http-nio-8005-exec-9] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+10:14:07.204 [http-nio-8005-exec-4] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.evaluateMinBalance
+10:14:07.205 [http-nio-8005-exec-4] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.evaluateMinBalance
+10:14:35.864 [http-nio-8005-exec-2] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+10:14:35.864 [http-nio-8005-exec-2] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+10:14:35.885 [http-nio-8005-exec-1] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.evaluateMinBalance
+10:14:35.885 [http-nio-8005-exec-1] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.evaluateMinBalance
+10:15:45.170 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+10:20:45.176 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+10:25:45.189 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+10:30:45.201 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+10:35:45.216 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+10:40:45.229 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+10:45:45.238 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+10:50:45.246 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+11:00:10.433 [http-nio-8005-exec-8] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:00:10.433 [http-nio-8005-exec-8] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:00:10.461 [http-nio-8005-exec-7] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.evaluateMinBalance
+11:00:10.461 [http-nio-8005-exec-7] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.evaluateMinBalance
+11:00:15.586 [http-nio-8005-exec-3] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:00:15.587 [http-nio-8005-exec-3] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:00:15.614 [http-nio-8005-exec-6] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.evaluateMinBalance
+11:00:15.615 [http-nio-8005-exec-6] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.evaluateMinBalance
+11:00:33.902 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+11:02:27.802 [http-nio-8005-exec-9] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:02:27.803 [http-nio-8005-exec-9] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:02:27.824 [http-nio-8005-exec-4] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.evaluateMinBalance
+11:02:27.824 [http-nio-8005-exec-4] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.evaluateMinBalance
+11:05:33.917 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+11:10:33.926 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+11:15:33.939 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+11:20:33.953 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+11:25:33.966 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+11:26:25.962 [http-nio-8005-exec-10] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:26:25.963 [http-nio-8005-exec-10] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:26:25.964 [http-nio-8005-exec-1] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:26:25.964 [http-nio-8005-exec-1] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:26:25.966 [http-nio-8005-exec-8] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:26:25.966 [http-nio-8005-exec-8] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:26:25.988 [http-nio-8005-exec-7] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:26:25.988 [http-nio-8005-exec-7] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:26:25.990 [http-nio-8005-exec-3] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:26:25.991 [http-nio-8005-exec-3] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:26:25.998 [http-nio-8005-exec-7] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:26:25.998 [http-nio-8005-exec-7] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:30:33.973 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+11:34:57.413 [http-nio-8005-exec-10] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:34:57.413 [http-nio-8005-exec-2] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:34:57.414 [http-nio-8005-exec-10] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:34:57.414 [http-nio-8005-exec-2] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:34:57.416 [http-nio-8005-exec-1] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:34:57.416 [http-nio-8005-exec-1] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:34:57.432 [http-nio-8005-exec-8] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:34:57.433 [http-nio-8005-exec-8] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:34:57.436 [http-nio-8005-exec-6] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:34:57.436 [http-nio-8005-exec-6] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:34:57.440 [http-nio-8005-exec-7] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:34:57.440 [http-nio-8005-exec-7] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:35:33.985 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+11:40:33.996 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+11:45:34.004 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+11:50:34.014 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+11:54:59.262 [http-nio-8005-exec-2] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:54:59.262 [http-nio-8005-exec-10] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:54:59.262 [http-nio-8005-exec-4] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:54:59.263 [http-nio-8005-exec-2] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:54:59.263 [http-nio-8005-exec-4] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:54:59.263 [http-nio-8005-exec-10] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:54:59.274 [http-nio-8005-exec-8] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:54:59.274 [http-nio-8005-exec-1] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:54:59.274 [http-nio-8005-exec-8] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:54:59.275 [http-nio-8005-exec-1] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:54:59.277 [http-nio-8005-exec-6] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:54:59.278 [http-nio-8005-exec-6] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:55:34.020 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+11:55:49.486 [http-nio-8005-exec-9] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:55:49.488 [http-nio-8005-exec-7] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:55:49.488 [http-nio-8005-exec-7] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:55:49.488 [http-nio-8005-exec-9] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:55:49.489 [http-nio-8005-exec-5] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:55:49.490 [http-nio-8005-exec-5] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:55:49.501 [http-nio-8005-exec-4] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:55:49.501 [http-nio-8005-exec-4] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:55:49.502 [http-nio-8005-exec-3] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:55:49.502 [http-nio-8005-exec-3] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+11:55:49.505 [http-nio-8005-exec-10] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.service.impl.RulesServiceImpl.getServiceCharges
+11:55:49.505 [http-nio-8005-exec-10] INFO  c.c.rules.transactions.Logging - Called Application for com.cognizant.rules.controller.RulesController.getServiceCharges
+12:00:34.034 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
